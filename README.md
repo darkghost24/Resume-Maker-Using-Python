@@ -25,13 +25,11 @@ Start the main event loop that waits for user interaction.
 
 
 >>
-Here is the code
+Here is the code..
 
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
-
-
 class ResumeMaker:
     def __init__(self, root):
         self.root = root
