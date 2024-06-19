@@ -1,35 +1,10 @@
 # Resume-Maker-Using-Python
 
->>	Creating a graphical user interface Python project involves several steps. Below is a guide using the tkinter library, which is a standard Python 	library for creating GUIs. We will build a basic template for a GUI application, which you can customize for your specific project.
-
->>
-Here is the process 
-
-1. Set Up Your Python Environment:
-Ensure you have Python installed on your computer. You can download it from python.org.
-
-2. Import the tkinter Library:
-You don't need to install tkinter separately as it comes with the standard Python library.
-
-3. Create the Main Window:
-Initialize the main window of your application.
-
-4. Add Widgets:
-Add various widgets like labels, buttons, entry fields, etc.
-
-5. Define Widget Actions:
-Define what happens when the user interacts with the widgets.
-
-6. Run the Main Event Loop:
-Start the main event loop that waits for user interaction.
-
-
->>
-Here is the code..
-
 import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
+
+
 class ResumeMaker:
     def __init__(self, root):
         self.root = root
@@ -193,32 +168,3 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = ResumeMaker(root)
     root.mainloop()
-
-
->>
-just run this code 
-and fill your details
-then go back no your project folder that where you make this project 
-then you can see a folder called "dist" open this folder now you can see your resume file   
-
-
->>
-Now if you want to make "resume_maker.py" to "resume_maker.exe" file then check this out >
-
-1. Install PyInstaller:
-First, ensure you have PyInstaller installed. You can install it using pip:
-
-2. Navigate to Your Script's Directory:
-Open a command prompt or terminal and navigate to the directory where your Python script is located. For example:
-
-3. Run PyInstaller:
-Use PyInstaller to create the executable. The --onefile option bundles everything into a single executable file:
-
-4. Replace my_script.py with the name of your script.
-
-5. Locate the Executable:
-After running the above command, PyInstaller will create several new folders and files in your script's directory. The standalone executable will be located in the dist folder.
-
-6. if you want to add icon for your ".exe" file >
-Icon File: To set an icon for your executable, use the --icon option:
-
