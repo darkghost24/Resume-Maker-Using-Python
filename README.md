@@ -201,7 +201,7 @@ Here is the code:
 just run this code 
 and fill your details
 then go back no your project folder that where you make this project 
-then you can see your resume file   
+then you can see your resume file.   
 
 
 >>
