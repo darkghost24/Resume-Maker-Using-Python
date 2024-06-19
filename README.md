@@ -216,12 +216,16 @@ open cmd and run this code:
 
 2. Navigate to Your Script's Directory:
 Open a command prompt or terminal and navigate to the directory where your Python script is located. For example:
-   
+
+run this code:
+
     cd path\to\your\script
 
 3. Run PyInstaller:
 Use PyInstaller to create the executable. The --onefile option bundles everything into a single executable file:
-   
+
+run this code:
+
     pyinstaller --onefile my_script.py
 
 4. Replace my_script.py with the name of your script.
@@ -231,6 +235,8 @@ After running the above command, PyInstaller will create several new folders and
 
 6. if you want to add icon for your ".exe" file >
 Icon File: To set an icon for your executable, use the --icon option:
+
+run this code:
 
     pyinstaller --onefile --icon=your_icon.ico my_script.py
 
