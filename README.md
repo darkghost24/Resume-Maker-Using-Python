@@ -209,6 +209,7 @@ Now if you want to make "resume_maker.py" to "resume_maker.exe" file then check 
 
 1. Install PyInstaller:
 First, ensure you have PyInstaller installed. You can install it using pip:
+
 open cmd and run this code:
 
     pip install pyinstaller
