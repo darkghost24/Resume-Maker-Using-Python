@@ -1,11 +1,11 @@
 # Resume-Maker-Using-Python
 
-"import tkinter as tk
-from tkinter import ttk
-from tkinter import messagebox
+    import tkinter as tk
+    from tkinter import ttk
+    from tkinter import messagebox
 
 
-class ResumeMaker:
+    class ResumeMaker:
     def __init__(self, root):
         self.root = root
         self.root.title("Resume Maker")
@@ -159,11 +159,11 @@ class ResumeMaker:
             f.write("------\n")
             for skill in skills:
                 f.write(f"- {skill}\n")
-            f.write("\n")"
+            f.write("\n")
         
 
 
-if __name__ == "__main__":
+    if __name__ == "__main__":
     root = tk.Tk()
     app = ResumeMaker(root)
     root.mainloop()
