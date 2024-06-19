@@ -204,7 +204,7 @@ then go back no your project folder that where you make this project
 then you can see your resume file.   
 
 
-||Now if you want to make "resume_maker.py" to "resume_maker.exe" file then check this out >
+< Now if you want to make "resume_maker.py" to "resume_maker.exe" file then check this out >
 
 1. Install PyInstaller:
 First, ensure you have PyInstaller installed. You can install it using pip:
