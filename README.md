@@ -25,7 +25,7 @@ Start the main event loop that waits for user interaction.
 
 
 >>
-Here is the code
+Here is the code:
 
     import tkinter as tk
     from tkinter import ttk
