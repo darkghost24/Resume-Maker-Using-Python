@@ -1,6 +1,6 @@
 # Resume-Maker-Using-Python
 
-import tkinter as tk
+"import tkinter as tk
 from tkinter import ttk
 from tkinter import messagebox
 
@@ -159,9 +159,8 @@ class ResumeMaker:
             f.write("------\n")
             for skill in skills:
                 f.write(f"- {skill}\n")
-            f.write("\n")
-
-        messagebox.showinfo("Resume Maker", "Resume created successfully!")
+            f.write("\n")"
+        
 
 
 if __name__ == "__main__":
