@@ -201,7 +201,7 @@ Here is the code
 just run this code 
 and fill your details
 then go back no your project folder that where you make this project 
-then you can see a folder called "dist" open this folder now you can see your resume file   
+then you can see your resume file   
 
 
 >>
@@ -209,18 +209,27 @@ Now if you want to make "resume_maker.py" to "resume_maker.exe" file then check 
 
 1. Install PyInstaller:
 First, ensure you have PyInstaller installed. You can install it using pip:
+open cmd and run this code:
+
+  pip install pyinstaller
 
 2. Navigate to Your Script's Directory:
 Open a command prompt or terminal and navigate to the directory where your Python script is located. For example:
 
+  cd path\to\your\script
+
 3. Run PyInstaller:
 Use PyInstaller to create the executable. The --onefile option bundles everything into a single executable file:
 
-4. Replace my_script.py with the name of your script.
+  pyinstaller --onefile my_script.py
 
+4. Replace my_script.py with the name of your script.
+ 
 5. Locate the Executable:
-After running the above command, PyInstaller will create several new folders and files in your script's directory. The standalone executable will be located in the dist folder.
+After running the above command, PyInstaller will create several new folders and files in your script's directory. The standalone executable will be located in the "dist" folder.
 
 6. if you want to add icon for your ".exe" file >
 Icon File: To set an icon for your executable, use the --icon option:
+
+  pyinstaller --onefile --icon=your_icon.ico my_script.py
 
